@@ -1,0 +1,17 @@
+{
+  "name": "codante-mp-landing-page-de-produtos-de-tecnologia",
+  "version": "1.0.0",
+  "description": "Crie uma landing page responsiva que apresenta smartphones e smartwatches, simulando uma página inicial de um e-commerce. O objetivo é aplicar conceitos de HTML e CSS para criar uma estrutura bem organizada e estilizada. A página deve ser funcional e focada no design, com elementos que simulam uma experiência real de compra online.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./input.css -o ./src/styles/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.6",
+    "tailwindcss": "^4.0.6"
+  }
+}

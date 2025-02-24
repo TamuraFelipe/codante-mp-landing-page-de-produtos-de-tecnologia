@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-nunito: 'Nunito', sans-serif;
+    
+}
+
+:root {
+    font-family: var(--font-nunito);
+}
+button, a {
+    cursor: pointer;
+}
+
+/* CSS Code */
+.swiper-wrapper {
+    width: 100%;
+    height: max-content !important;
+    padding-bottom: 64px !important;
+    -webkit-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
+    position: relative;
+}
+.swiper-pagination-bullet {
+    background: #4f46e5;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 18px!important;
+    color: #4f46e5;
+    font-weight: 700;
+}
+.swiper-button-next {
+    right: 70px!important;
+}
+.swiper-button-prev {
+    left: 70px!important;
+}
+
